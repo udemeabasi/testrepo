@@ -55,3 +55,19 @@ let isAuthenticated = true;
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
 
 console.log("Authentication Status:", authenticationStatus);
+
+// Practice task
+let Person = "employee"
+let accesslevel;
+
+if (Person === "employee") {
+    accessLevel = "Dietary Services";
+} else if (Person === "Enrolled Member") {
+    accessLevel = "Dietary Services and one-on-one interaction with a dietician";
+  }  else if (Person == "Subscriber") {
+     accessLevel = "Dietary services only"
+} else {
+    accessLevel = "Please enroll first to avail this facility";
+}
+// Definition of Output
+console.log("Access Level:", accessLevel);
